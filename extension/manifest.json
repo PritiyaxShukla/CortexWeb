@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "CortexWeb",
+  "version": "1.0",
+  "description": "Scrapes webpage, summarizes and answers questions.",
+  "permissions": ["tabs", "scripting", "activeTab", "sidePanel"],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "default_title": "CortexWeb"
+  },
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}

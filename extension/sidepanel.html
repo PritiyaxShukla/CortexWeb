@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CortexWeb</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Theme Toggle -->
+  <div id="themeToggleContainer">
+    <label class="switch">
+      <input type="checkbox" id="themeToggle">
+      <span class="slider round"></span>
+    </label>
+    <span id="themeLabel">Day</span>
+  </div>
+
+  <!-- Logo and Header -->
+  <div id="header">
+    <img src="icon.png" alt="CortexWeb Logo" id="logo">
+    <div>
+      <h1>CortexWeb</h1>
+      <h2>Know the Web Intelligently</h2>
+    </div>
+  </div>
+
+  <!-- Status and Loader -->
+  <div id="status">Fetching URL and scraping content...</div>
+
+  <!-- Controls -->
+  <div id="controls">
+    <button id="summaryBtn" disabled>Generate Summary</button>
+    <button id="qaBtn" disabled>Ask your question</button>
+    <input id="questionInput" type="text" placeholder="Type your question here" disabled />
+    <button id="resetHistoryBtn">Reset History</button>
+  </div>
+
+  <!-- Output -->
+  <pre id="output"></pre>
+
+  <!-- JS Logic -->
+  <script src="popup.js"></script>
+</body>
+</html>

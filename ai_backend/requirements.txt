@@ -1,0 +1,7 @@
+langchain
+dotenv
+langchain-chroma
+langchain_huggingface
+langchain_together
+langchain_core
+langchain_community
